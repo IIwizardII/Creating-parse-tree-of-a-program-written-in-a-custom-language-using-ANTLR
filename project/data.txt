@@ -1,0 +1,46 @@
+$start
+
+int main()[
+
+int a.
+int b.
+int c.
+int d.
+int e.
+int f.
+int g.
+int h.
+int i.
+int n.
+int m.
+
+a=3.
+b=1.
+c=10.
+
+g=0.
+n=3.
+m=1.
+
+d=a+b.
+e=c/a.
+f=b*a.
+h=c%a.
+
+
+when(d>=c)[
+	c=d-b.
+]
+or(d<c)[
+	c=d+b.
+]
+
+run(from i to n increase by m)[
+	g=g+b.
+]
+
+return 0.
+
+]
+
+$end
